@@ -1,0 +1,35 @@
+{
+  "name": "rico-polymer",
+  "version": "1.0.0-CR.7",
+  "description": "Polymer Remoting Component of the Rico remoting layer",
+  "author": "Michael Heinrichs <michael.heinrichs@karakun.com>",
+  "contributors": [
+    "Michael Heinrichs <michael.heinrichs@karakun.com>",
+    "Hendrik Ebbers <hendrik.ebbers@karakun.com>",
+    "Kunal Singh <kunal.singh@canoo.com>",
+    "Timo Brandstätter <timo.brandstaetter@karakun.com>",
+    "Simon Skoczylas <simon.skoczylas@karakun.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rico-project/rico-polymer2"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "clean:all": "node ./node_modules/rimraf/bin.js node_modules/ bower_components/",
+    "install:all": "npm install && node ./node_modules/bower/bin/bower install",
+    "analyze": "node ./node_modules/polymer-cli/bin/polymer.js analyze",
+    "analyze:json": "node ./node_modules/polymer-cli/bin/polymer.js analyze > analysis.json",
+    "serve": "npm run analyze:json && node ./node_modules/polymer-cli/bin/polymer.js serve",
+    "lint": "node ./node_modules/polymer-cli/bin/polymer.js lint",
+    "test": "node ./node_modules/polymer-cli/bin/polymer.js test",
+    "test:firefox": "node ./node_modules/polymer-cli/bin/polymer.js test -l firefox",
+    "test:chrome": "node ./node_modules/polymer-cli/bin/polymer.js test -l chrome",
+    "test:safari": "node ./node_modules/polymer-cli/bin/polymer.js test -l safari"
+  },
+  "devDependencies": {
+    "bower": "1.8.2",
+    "polymer-cli": "1.5.7",
+    "rimraf": "2.6.2"
+  }
+}

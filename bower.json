@@ -1,0 +1,46 @@
+{
+  "name": "rico-polymer",
+  "version": "1.0.0-CR.1",
+  "keywords": [
+    "Rico"
+  ],
+  "homepage": "https://github.com/rico-project/rico",
+  "authors": [
+    "Michael Heinrichs <michael.heinrichs@karakun.com>",
+    "Hendrik Ebbers <hendrik.ebbers@karakun.com>",
+    "Kunal Singh <kunal.singh@canoo.com>",
+    "Timo Brandstätter <timo.brandstaetter@karakun.com>",
+    "Simon Skoczylas <simon.skoczylas@karakun.com>"
+  ],
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "package.json",
+    "package-lock.json"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#2.1.1",
+    "rico-js": "1.0.0-CR.1"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#3.0.1",
+    "web-component-tester": "Polymer/web-component-tester#6.5.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#1.1.0",
+    "chai": "3.2.0",
+    "sinon": "4.2.2",
+    "mocha": "3.1.2"
+  },
+  "resolutions": {
+    "polymer": "2.1.1",
+    "chai": "3.2.0",
+    "mocha": "3.1.2"
+  }
+}
