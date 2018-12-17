@@ -1,6 +1,6 @@
 {
   "name": "rico-polymer",
-  "version": "1.0.0-CR.1",
+  "version": "1.0.0-CR.4",
   "keywords": [
     "Rico"
   ],
@@ -28,7 +28,7 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#2.1.1",
-    "rico-js": "1.0.0-CR.1"
+    "rico-js": "1.0.0-CR.4"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#3.0.1",
